@@ -28,7 +28,7 @@ le module PIL permet «d'atteindre» et de modifier directement n'importe quel p
 ## Illustration : 
 la fonction suivante : im.putpixel((3, 1), (255, 0, 0)) a permis "d'agir" sur le pixel de coordonnée (3,1)
 ![image](http://math.univ-lyon1.fr/irem/Formation_ISN/formation_prog_images/module_PIL/images_module_PIL/Coordonnees_PIL.png)  
-# Défi 1 :  
+# Défi  :  
 Complétez le programme précédent à partir de la ligne 11 afin d'obtenir l'image d'un rectangle de 100 pixels de largeur et 256 pixels de hauteur, de couleur dégradée du noir (en haut) vers le rouge(en bas). 
 Indice0, vous avez besoin de la fonction im.putpixel()  
 Indice1, vous avez besoin d'une boucle for parcourant chaque pixels de coordonée x,y et les colorants de plus en plus rouge.  
